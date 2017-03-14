@@ -1,60 +1,12 @@
 #banner {
   background-color: #3d424f;
-  text-align: center;
   color: white;
 }
 
-#banner h1 {
-  margin: auto;
-  padding: 16px;
-  font-size: 1.6em;
+#banner-img {
+  visibility: hidden;
 }
 
-#banner p {
-  margin: auto;
-  padding: 16px;
-  font-size: 1em;
-}
-
-#banner form {
-  text-align: center;
-  margin: auto;
-  padding: 20px;
-}
-
-.mockup #chrome {
-  background-color: #e5e5e5;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  display: inline-block;
-  height: 2em;
-  line-height: 1em;
-  padding: 0.75em;
-  position: relative;
-  width: 70%;
-  color: gray;
-  margin-top: 30px;
-}
-
-#preview {
-  margin: auto;
-  width: 70%;
-}
-
-#submit {
-  background: #00b47b;
-  border: none;
-  cursor: 9999px;
-  margin: 20px;
-  border-radius: 8px;
-  font-size: 1em;
-  line-height: 2.85em;
-  color: white;
-  height: 2.85em;
-  padding: 0 2.5em;
-}
-
-#email {
-  border-radius: 8px;
-  height: 2.85rem;
+#banner-img.animated {
+  visibility: visible !important;
 }
