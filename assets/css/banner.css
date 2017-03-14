@@ -3,10 +3,14 @@
   color: white;
 }
 
-#banner-img {
+.banner-img {
+  overflow: hidden;
+}
+
+.banner-img img {
   visibility: hidden;
 }
 
-#banner-img.animated {
+.banner-img img.animated {
   visibility: visible !important;
 }
