@@ -1,0 +1,17 @@
+#service {
+  color: white;
+  background-color: #6f6da5;
+  padding: 1rem 0;
+}
+
+.service-ls li:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.service-ls li:before {
+  font-family: 'FontAwesome';
+  content: '\f00c';
+  margin: 0 1rem;
+  color: #4bb2b6;
+  font-size: 1.5rem;
+}
