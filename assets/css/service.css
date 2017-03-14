@@ -1,6 +1,6 @@
 #service {
   color: white;
-  background-color: #6f6da5;
+  background-color: #4486c5;
   padding: 2rem 0;
 }
 
@@ -12,6 +12,6 @@
   font-family: 'FontAwesome';
   content: '\f00c';
   margin: 0 1rem;
-  color: #4bb2b6;
+  color: #00b47b;
   font-size: 1.5rem;
 }
