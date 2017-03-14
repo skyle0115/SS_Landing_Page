@@ -1,0 +1,47 @@
+#footer{
+  text-align: left;
+  color: white;
+  background: #3d424f;
+}
+
+#footer h3 {
+
+  font-size: 1.15em;
+  color: white;
+  line-height: 1.5em;
+  margin-right: auto;
+  padding: 0;
+  border: 0;
+}
+
+#footer form {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+#submit2 {
+  background: #00b47b;
+  border: none;
+  cursor: 9999px;
+  margin: 20px;
+  border-radius: 8px;
+  font-size: 1em;
+  line-height: 2.85em;
+  color: white;
+  height: 2.85em;
+  padding: 0 2.5em;
+}
+
+#email2 {
+  border-radius: 8px;
+}
+
+.labeled-icons{
+  margin: 16px;
+  padding: 32px;
+  border: 0;
+  font-size: 1px;
+  font: inherit;
+  vertical-align: baseline;
+}

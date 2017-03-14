@@ -6,6 +6,9 @@
   <title>Group 2 Landing Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/banner.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
 <body>
@@ -29,16 +32,23 @@
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container-fluid">
     <div id="banner" class="row">
       <h1>Lorem</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione enim fugit distinctio quia non earum! Delectus vero nemo, facere quae accusantium voluptatibus dolorem enim repellendus, et labore ipsum reiciendis iste.</p>
-      <form class="" action="index.html" method="post">
-        <input id="email" type="email" name="email" required>
-        <input type="submit" name="Interest" value="Interest">
+
+      <form class="send" action="index.html" method="post" display: inline-block>
+        <input id="email" type="email" name="email" placeholder="Type Email" required>
+        <br>
+        <input id="submit" type="submit" name="Interest" value="Sign Up">
+        <!-- <a class="btn btn-success btn-lg" href="https://goo.gl/forms/FA6mQjgUAbK5MAAv1"><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;&nbsp;Get Notified When Available</a> -->
       </form>
-      <div>
-        <img src="" alt="">
+
+      <div class="mockup">
+        <div class="chrome">
+          <span class="upper">Chrome</span>
+        </div>
+        <img id="preview" class="img-fluid" src="http://wwwimages.adobe.com/content/dam/acom/en/products/photoshop/max2016/images/ps-marquee1440x660.jpg" alt="hello">
       </div>
 
     </div>
@@ -56,7 +66,33 @@
     </div>
 
     <div id="footer" class="row">
+      <div class="Contact">
+        <h3>Contact</h3>
 
+        <ul class="labeled-icons">
+          <li>
+            <h4 class="icon fa-home"></h4>
+            1234 Fictional Road Suite #5428
+            <br>
+            Nashville, TN 00000
+          </li>
+          <li>
+            <h4 class="icon fa-phone"></h4>
+            (800) 000-0000
+          </li>
+          <li><h4 class="icon fa-envelope"></h4>
+            <a style="cursor: pointer;">information@untitled.tld</a>
+          </li>
+
+        </ul>
+      </div>
+
+      <form class="send" action="index.html" method="post" display: inline-block>
+        <input id="email2" type="email" name="email" placeholder="Type Email" required>
+        <br>
+        <input id="submit2" type="submit" name="Interest" value="Sign Up">
+        <!-- <a class="btn btn-success btn-lg" href="https://goo.gl/forms/FA6mQjgUAbK5MAAv1"><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;&nbsp;Get Notified When Available</a> -->
+      </form>
     </div>
   </div>
 
