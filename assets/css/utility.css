@@ -1,0 +1,24 @@
+#utility {
+  background-color: rgb(79, 145, 210);
+  color: white;
+}
+
+#utility p {
+  font-size: 14px;
+}
+
+.leftalign, .centeralign, .rightalign
+{
+   text-align: center;
+}
+@media only screen and (min-width: 992px)
+{
+   .leftalign
+   {
+      text-align: left;
+   }
+   .rightalign
+   {
+      text-align: right;
+   }
+}
