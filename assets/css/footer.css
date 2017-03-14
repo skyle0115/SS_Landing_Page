@@ -9,7 +9,6 @@
   font-size: 1.15em;
   color: white;
   line-height: 1.5em;
-  margin-left: 360px;
   margin-top: 60px;
   padding: 0;
   border: 0;
@@ -18,7 +17,6 @@
 #footer form {
   text-align: center;
   margin: auto;
-  padding: 20px;
 }
 
 #submit2 {
@@ -39,7 +37,7 @@
 }
 
 .labeled-icons{
-  margin-left: 320px;
+  /*margin-left: 320px;*/
   padding: 32px;
   border: 0;
   font-size: 1px;
@@ -50,14 +48,13 @@
 
 .fa {
   font-size: 24px;
-  margin-right: 16px;
+  /*margin-right: 16px;*/
 }
 
 .labeled-icons li {
-  height: 60px;
+  height: 80px;
 }
 
 #newline {
-  margin-left: 45px;
-  margin-down: 70px;
+  margin-left: 30px;
 }
