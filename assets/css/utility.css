@@ -7,6 +7,14 @@
   font-size: 14px;
 }
 
+#utility .util-img {
+  height: 320px;
+}
+
+#utility img {
+  max-height: 100%;
+}
+
 .leftalign, .centeralign, .rightalign
 {
    text-align: center;
