@@ -22,7 +22,7 @@
   padding: 20px;
 }
 
-.mockup .chrome {
+.mockup #chrome {
   background-color: #e5e5e5;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -38,7 +38,7 @@
 
 #preview {
   margin: auto;
-  width: 90%
+  width: 90%;
 }
 
 #submit {
@@ -56,4 +56,5 @@
 
 #email {
   border-radius: 8px;
+  height: 2.85rem;
 }
