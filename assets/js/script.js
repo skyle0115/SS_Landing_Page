@@ -1,7 +1,6 @@
-$(document).ready(function(){
-
-   $("#preview").hide();
-   $("#chrome").hide();
-   $("#preview").fadeIn("slow");
-   $("#chrome").fadeIn("slow");
+$(document).ready(function() {
+    $(".banner-text").hide();
+    $(".banner-text").fadeIn("slow", function() {
+        $('#banner-img').addClass('animated slideInUp');
+    });
 });
