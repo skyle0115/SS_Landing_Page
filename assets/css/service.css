@@ -1,7 +1,7 @@
 #service {
   color: white;
   background-color: #6f6da5;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .service-ls li:not(:last-child) {
