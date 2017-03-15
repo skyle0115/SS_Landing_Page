@@ -3,6 +3,10 @@
   color: white;
 }
 
+#banner h1 {
+  font-family: 'Philosopher', sans-serif;
+}
+
 .banner-img {
   overflow: hidden;
 }
