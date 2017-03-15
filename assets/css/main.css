@@ -1,3 +1,5 @@
-.navbar-offset {
-  margin-top: -1.75rem;
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+  font-family: ‘Noto Sans TC’, sans-serif;
 }

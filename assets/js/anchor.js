@@ -3,7 +3,8 @@
  */
 $(function() {
     $('a[href*=\\#]').anchor({
-        transitionDuration : 600
+        transitionDuration : 600,
+        offset : $("nav").outerHeight(),
     });
 });
 
@@ -31,7 +32,8 @@ $(function() {
 			transitionTimingFunction: 'swing',
 			labels: {
 				error: 'Couldn\'t find any section'
-			}
+			},
+      offset: 0,
 		},
 
 		/**
@@ -91,7 +93,7 @@ $(function() {
 			var $viewport = $('html, body');
 
 			$viewport.animate(
-				{scrollTop: topOffsetPosition},
+				{scrollTop: topOffsetPosition - settings.offset},
 				settings.transitionDuration,
 				settings.transitionTimingFunction
 			);
