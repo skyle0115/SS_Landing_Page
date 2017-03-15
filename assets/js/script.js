@@ -13,18 +13,18 @@ $(document).scroll(function() {
   var utility3 = $('#utility3').offset().top;
   var utility4 = $('#utility4').offset().top;
   if (pos > requirement) {
-    $('#utility1 img').addClass('animated fadeInLeft');
+    $('#utility1 img').addClass('animated fadeIn');
   }
   if (pos > utility1) {
-    $('#utility2 img').addClass('animated fadeInRight');
+    $('#utility2 img').addClass('animated fadeIn');
   }
   if (pos > utility2) {
-    $('#utility3 img').addClass('animated fadeInLeft');
+    $('#utility3 img').addClass('animated fadeIn');
   }
   if (pos > utility3) {
-    $('#utility4 img').addClass('animated fadeInRight');
+    $('#utility4 img').addClass('animated fadeIn');
   }
   if (pos > utility4) {
-    $('#utility5 img').addClass('animated fadeInLeft');
+    $('#utility5 img').addClass('animated fadeIn');
   }
 });
