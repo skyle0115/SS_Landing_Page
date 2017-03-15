@@ -12,6 +12,7 @@
 }
 
 .banner-img img {
+  animation-duration: 850ms;
   visibility: hidden;
 }
 
